@@ -87,7 +87,7 @@
 	
 	\subsection{Maximum-Likelyhood Methode}
 	\textbf{Problembeschreibung}: Man möchte für einen unbekannten Parameter $\lambda$
-	einer Verteilung, die mindestens einen Paramter besitzt, einen Schätzwert bestimmen
+	einer Verteilung, die mindestens einen Parameter besitzt, einen Schätzwert bestimmen
 	mithilfe einer konkreten Stichprobe $(x_1, \ldots, x_n)$.
 	
 	\begin{enumerate}
@@ -111,7 +111,7 @@
 	\end{enumerate}
 	
 	\subsection{Konfidenzintervalle}
-	Standartwerte für Konfidenz:
+	Standardwerte für Konfidenz:
 	\begin{align*}
 	90\%:z = 1.65\\
 	95\%:z = 1.96\\
@@ -124,14 +124,14 @@
 	\end{align}
 	
 	\section{Mengen}
-	\subsection{o-Algebra}
+	\subsection{$\sigma$-Algebra}
 	- leere Menge enthalten\\
-	- alle Kombinationen der Elemente enthalten, die nicht bereits gemeinsamme Elemente haben also z.B. \textbf{NICHT} \{x,y\} und \{y,z\} zu \{x,y,z\} machen\\
+	- alle Kombinationen der Elemente enthalten, die nicht bereits gemeinsame Elemente haben also z.B. \textbf{NICHT} \{x,y\} und \{y,z\} zu \{x,y,z\} machen\\
 	- alle Komplemente enthalten\\ \\
 	\textbf{Beispiel:}\\
 	Grundmenge = $\{1,2,3,4\}$\\
-	NICHT o-Algebra Menge = $\{\{1,2\},\{3\}\}$\\
-	o-Algebra Menge = $\{\emptyset ,\{1,2\},\{3\},
+	NICHT $\sigma$-Algebra Menge = $\{\{1,2\},\{3\}\}$\\
+	$\sigma$-Algebra Menge = $\{\emptyset ,\{1,2\},\{3\},
 	\underbrace{\{1,2,3\}}_{\substack{\{1,2\}\{3\}}},
 	\underbrace{\{3,4\}}_{\substack{\neg \{1,2\}}},
 	\underbrace{\{4\}}_{\substack{\neg \{1,2,3\}}},
@@ -160,7 +160,7 @@
 	\subsubsection{genau eine 6 bei n-Würfeln/Würfen}
 	\[ p= \frac{n*5^{(n-1)}}{6^n}\]\\
 	- $6^n $ ist wie immer die Anzahl der Gesamtmöglichkeiten \\
-	- es gibt n-Moglichkeiten an der die 6 sein kann \\
+	- es gibt n-Möglichkeiten an der die 6 sein kann \\
 	- es bleiben bei den verbleibenden n-1 Würfen 5 Möglichkeiten
 	\subsubsection{genau x-6er bei n-Würfeln/Würfen}
 	\[ p= \frac{\begin{pmatrix}
@@ -313,10 +313,10 @@
 	\mathcal{B}(k | p,n) \enspace \textbf{ oder auch } \enspace B(k;p,n) =
 	\begin{pmatrix} n \\ k \end{pmatrix} p^k(1-p)^{n-k} \enspace \newline
 	\text{mit k = 0,1,2,...,n} \]
-	- wobei diese Funktion die \textbf{kommulierte} Wahrscheinlichkeit angibt, also z.B.
+	- wobei diese Funktion die \textbf{kumulierte} Wahrscheinlichkeit angibt, also z.B.
 	wobei k = 2 die Wahrscheinlichkeit "1 oder 2"
-	\\ - p ist die Wahrscheinlichkeit für ein positives Ereigbnis
-	\\ - n ist Anzähl wie oft wir ziehen
+	\\ - p ist die Wahrscheinlichkeit für ein positives Ereignis
+	\\ - n ist Anzahl wie oft wir ziehen
 	
 	\subsubsection{Beispiel: 500 Druckfehler auf 500 Seiten}
 	Wie hoch ist die Wahrscheinlichkeit, dass auf einer Seite mindestens 3 Druckfehler
